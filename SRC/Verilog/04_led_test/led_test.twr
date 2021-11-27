@@ -4,7 +4,7 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
 -n 3 -fastpaths -xml led_test.twx led_test.ncd -o led_test.twr led_test.pcf
--ucf led_test.ucf
+-ucf led_test.ucf -ucf led.ucf
 
 Design file:              led_test.ncd
 Physical constraint file: led_test.pcf
@@ -533,14 +533,14 @@ Design statistics:
 ------------------------------------Footnotes-----------------------------------
 1)  The minimum period statistic assumes all single cycle delays.
 
-Analysis completed Fri Sep 25 09:39:42 2015 
+Analysis completed Sat Nov 20 20:48:40 2021 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 213 MB
+Peak Memory Usage: 4572 MB
 
 
 

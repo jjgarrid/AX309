@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.18 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.18 secs
  
 --> Reading design: led_test.prj
 
@@ -105,7 +105,7 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "E:\Project\AX309\CD\09_VERILOG\04_led_test\led_test.v" into library work
+Analyzing Verilog file "C:\Users\juanj\sources\AX309\SRC\Verilog\04_led_test\led_test.v" into library work
 Parsing module <led_test>.
 
 =========================================================================
@@ -119,7 +119,7 @@ Elaborating module <led_test>.
 =========================================================================
 
 Synthesizing Unit <led_test>.
-    Related source file is "E:\Project\AX309\CD\09_VERILOG\04_led_test\led_test.v".
+    Related source file is "C:\Users\juanj\sources\AX309\SRC\Verilog\04_led_test\led_test.v".
     Found 4-bit register for signal <led>.
     Found 32-bit register for signal <timer>.
     Found 32-bit adder for signal <timer[31]_GND_1_o_add_1_OUT> created at line 35.
@@ -373,12 +373,12 @@ clk            |    5.345|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.23 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.94 secs
  
 --> 
 
-Total memory usage is 258656 kilobytes
+Total memory usage is 4485860 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

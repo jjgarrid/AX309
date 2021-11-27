@@ -10,7 +10,7 @@ Target Device  : xc6slx9
 Target Package : ftg256
 Target Speed   : -2
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Fri Sep 25 09:39:28 2015
+Mapped Date    : Sat Nov 20 20:48:23 2021
 
 Design Summary
 --------------
@@ -82,9 +82,9 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                3.11
 
-Peak Memory Usage:  470 MB
-Total REAL time to MAP completion:  4 secs 
-Total CPU time to MAP completion:   4 secs 
+Peak Memory Usage:  4493 MB
+Total REAL time to MAP completion:  5 secs 
+Total CPU time to MAP completion:   5 secs 
 
 Table of Contents
 -----------------

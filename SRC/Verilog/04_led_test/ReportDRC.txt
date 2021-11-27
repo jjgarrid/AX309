@@ -1,0 +1,91 @@
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : PlanAhead v.14.7 (win64) Build 321239 Fri Sep 27 19:29:51 MDT 2013
+| Date         : Sat Nov 20 20:39:01 2021
+| Host         : juanjo-dev running 64-bit major release  (build 9200)
+| Command      : report_drc
+------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+
+REPORT SUMMARY
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Checks: defined_DATA_RATE
+                     DSP48E1_AregAcascreg
+                     Bank IO standard internal Vref conflict
+                     Bank IO standard limits
+                     Bank IO standard Support
+                     Bank IO standard Vcc
+                     Bank IO standard Vref
+                     Bank IO standard Vref utilization
+                     Bank IO standard Termination
+                     Input Buffer Connections
+                     BufR & BufIO Locations
+                     Configuration Mode
+                     Design Rule Check Disabled
+                     Bank IO standard VRN/VRP Occupied
+                     Inconsistent Diff pair IOStandards
+                     Inconsistent Diff pair IOStandards
+                     Inconsistent Diff pair IOStandards
+                     DSP48 Buffering
+                     DSP48 Cascade
+                     DSP input pipelining
+                     DSP input registers
+                     DSP output pipelining
+                     DSP output registers
+                     DSP48E1_PregOpmodeZmuxP
+                     Cascade input routing
+                     Area group tile alignment
+                     Pblock overlap
+                     Pblock partition
+                     FIFO_SynSameClk
+                     Black Box Instances
+                     IN_TERM / OUT_TERM requirements
+                     IO Bus SLR Crossings
+                     Number of IOs
+                     IOs crosstalk to MGT
+                     Differential IO pads
+                     Directionless IOs
+                     Incompatible BUFGs among compatible parts.
+                     MGT not allowed for part compatibility
+                     Part compatibility implied prohibits not respected
+                     Part compatibility between monolithic and multi-die devices.
+                     IOs placed on disallowed sites
+                     IOB set reset sharing
+                     IOStandard Type
+                     INTERNAL_VREF
+                     Longest carry chain height
+                     HLUTNM on instances assigned to non-overlapping pblocks
+                     LOC Excursion
+                     LUTNM on instances assigned to non-overlapping pblocks
+                     Bidirection LVDS IOs
+                     Multiple Driver Nets
+                     Driverless Nets
+                     Inconsistent port properties
+                     RAMB output registers
+                     connects_I0_connects_I1
+                     Resource utilization
+                     Vccaux voltage requirement for LVCMOS25
+                     VCCAUX
+                     VCCOSENSEMODE not supported
+           Max violations: <unlimited>
+         Violations found: 1
+
+2. REPORT DETAILS
+-----------------
+LOCE-1#1 Warning
+LOC Excursion  - PBlock:ROOT
+pblock ROOT fails to contain all LOCs on instances assigned to it.
+Related violations: <none>
+
+

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-10-23T17:34:53</DateModified>
+  <DateModified>2021-11-21T19:37:36</DateModified>
   <ModuleName>led_test</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>E:/BaiduYunDownload/AX309.1600808/AX309/09_VERILOG/04_led_test/iseconfig/led_test.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/BaiduYunDownload/AX309.1600808/AX309/09_VERILOG/04_led_test\</ImplementationReportsDirectory>
+  <SummaryTimeStamp>2021-11-20T20:48:49</SummaryTimeStamp>
+  <SavedFilePath>C:/Users/juanj/sources/AX309/SRC/Verilog/04_led_test/iseconfig/led_test.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/juanj/sources/AX309/SRC/Verilog/04_led_test\</ImplementationReportsDirectory>
   <DateInitialized>2015-02-28T09:29:16</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
@@ -19,7 +19,7 @@
     <toc-item title="Detailed Reports" target="Detailed Reports" />
    </view>
    <view inputState="Unknown" program="implementation" contextTags="FPGA_ONLY" hidden="true" type="HTML" file="led_test_envsettings.html" label="System Settings" />
-   <view inputState="Translated" program="map" locator="MAP_IOB_TABLE" contextTags="FPGA_ONLY" type="IOBProperties" file="led_test_map.xrpt" label="IOB Properties" />
+   <view inputState="Translated" program="map" locator="MAP_IOB_TABLE" contextTags="FPGA_ONLY" type="IOBProperties" file="led_test_map.xrpt" showConstraints="0" label="IOB Properties" />
    <view inputState="Translated" program="map" contextTags="FPGA_ONLY" hidden="true" type="Control_Sets" file="led_test_map.xrpt" label="Control Set Information" />
    <view inputState="Translated" program="map" locator="MAP_MODULE_HIERARCHY" contextTags="FPGA_ONLY" type="Module_Utilization" file="led_test_map.xrpt" label="Module Level Utilization" />
    <view inputState="Mapped" program="par" locator="CONSTRAINT_TABLE" contextTags="FPGA_ONLY" type="ConstraintsData" file="led_test.ptwx" label="Timing Constraints" translator="ptwxToTableXML.xslt" />

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sat Nov 20 20:37:09 2021
+# Process ID: 4084
+# Log file: C:/Users/juanj/sources/AX309/SRC/Verilog/04_led_test/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/juanj/sources/AX309/SRC/Verilog/04_led_test/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/juanj/sources/AX309/SRC/Verilog/04_led_test/pa.fromNcd.tcl
+report_drc -name drc_1 -file C:/Users/juanj/sources/AX309/SRC/Verilog/04_led_test/ReportDRC.txt
+report_ssn -name ssn_1
+close_design
